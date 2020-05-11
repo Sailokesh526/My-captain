@@ -19,7 +19,7 @@ print(Languages[0:3])
 
 # Deleting different Dictionary elements
 
-Cricketers ={"Dhoni":"Finisher,
+Cricketers ={"Dhoni":"Finisher",
                   "Rohit":"Hitter",
                      "Jadeja":"All rounder"}
 del cricketers["Jadeja"]
