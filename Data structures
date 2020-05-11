@@ -1,0 +1,27 @@
+# Assigning elements to different lists
+
+Numbers1=[1,2 3,4]
+Numbers2=[6,7,8,9]
+Numbers1[3]= 5
+Numbers2[2]= 4
+print(Numbers1)
+print(Numbers2)
+
+
+
+# Accessing elements from a Tuple
+
+Languages =("English","Hindi","Tamil")
+print(Languages[1])
+print(Languages[0:3])
+
+
+
+# Deleting different Dictionary elements
+
+Cricketers ={"Dhoni":"Finisher,
+                  "Rohit":"Hitter",
+                     "Jadeja":"All rounder"}
+del cricketers["Jadeja"]
+Cricketers.pop("Rohit")
+print(Cricketers) 
